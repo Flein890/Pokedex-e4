@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="images/pokeball.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <h1 class="title">Pokedex</h1>
+    <form id="form">
+      <div class="search-container">
+        <input
+          type="number"
+          id="find-pokemon--input"
+          placeholder="Ingrese un ID"
+        />
+        <button id="find"><img src="lupa.svg" alt="" /></button>
+      </div>
+    </form>
+    <small class="error"></small>
+    <div class="container">
+      <!-- aca se generaran los pokemones -->
+    </div>
+    <footer id="footer"></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
