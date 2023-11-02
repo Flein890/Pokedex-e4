@@ -36,8 +36,8 @@ const template = ({ name, id, types, sprites, weight, height, stats }) => {
           <div class="attack">attack: ${stats[1].base_stat}</div>
           <div class="defense">defense: ${stats[2].base_stat}</div>
           <div class="speed">speed: ${stats[5].base_stat}</div>
-          <div class="weight">weight: ${weight}kg</div>
-          <div class="height">height: ${height}m</div>
+          <div class="weight">weight: ${weight / 10}kg</div>
+          <div class="height">height: ${height / 10}m</div>
           <div class="type">${types
             .map((typeE) => typeE.type.name)
             .join()}</div>
